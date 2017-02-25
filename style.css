@@ -1,0 +1,56 @@
+@font-face {
+font-family: 'Oswald' sans-serif;
+font-family: 'Yellowtail', cursive;
+font-family: 'Patrick Hand', cursive;
+src: <link href="https://fonts.googleapis.com/css?family=Oswald|Yellowtail|Patrick+Hand" rel="stylesheet">
+}
+
+
+h1 {
+  font-family: 'Yellowtail';
+  font-weight: bold;
+  font-size: 40px;
+  color: #333333;
+}
+
+h2 {
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 32px;
+  color: #333333;
+}
+
+.sub-content, .sub-header {
+  font-family: 'Norwester';
+  font-size: 12px;
+  font-weight: lighter;
+  color: #919192;
+}
+
+.choc-pizza, .instructions {
+  margin: 0 auto;
+  width: 900px;
+  color: #919192;
+}
+
+.ingredients-box {
+  background-image: url(lab-assets/list-bg.png);
+  background-position: center;
+  background-size: cover;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.ingredients {
+  font-family:  'Patrick Hand';
+  color: #736852;
+}
+
+li {
+  display: inline-block;
+  padding-left: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 40%;
+  list-style: square;
+}
